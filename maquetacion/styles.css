@@ -1,0 +1,236 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin-right: 2em;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+button {
+    background-color: white;
+    border-radius: 30px;
+    padding: 0px 1.5em;
+    height: 2.5em;
+    border: 2px solid black;
+    font-size: 0.8em;
+    width: 8em;
+}
+
+.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+    font-size: 12px;
+  }
+  .redondo:hover {
+    background-color: black;
+    color: white;}
+
+    main .redondo:nth-child(2) {
+        color: black;
+        border-color: #6b53f0;
+      }
+      main .redondo:nth-child(2):hover {
+        color: white;
+        background-color: #6b53f0;
+      }
+
+      div#introduction-actions {
+        display: flex;
+        justify-content: center;}
+
+div#navbar-left img {
+    width: 8em;
+}
+
+#introduction-text {
+    text-align: center;
+    font-size: 1em;
+}
+
+div#introduction {
+    font-size: 1em;
+    margin-top: 0.8em;
+    margin-right: 8em;
+    margin-bottom: 1em;
+    margin-left: 8em;
+}
+div#background-container {
+    background-color: rgba(255, 255, 255, 0);
+background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+border-width: 0px;
+border-color: var(--awb-color3);
+border-style: solid;
+background-size: cover;
+background-attachment: fixed;
+height: calc(100vh - 80px)
+}
+
+div#fusion-container{
+    background-color: rgba(255,255,255,0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: var(--awb-color3);
+    border-style: solid;
+}
+div#container-programas{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    background-color: rgba(255,255,255,0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: var(--awb-color3);
+    border-style: solid;
+}
+
+div#container-align{
+    max-width: 28em;
+    display: flex;
+    margin-top: 2em;
+}
+
+div#column-left {
+   
+    flex-direction: column;
+    background-position: left top;
+    background-size: cover;
+    display: flex;
+    width: 25em;
+    padding: 0em 0em 0em 0em;
+    margin-right: 5em;
+    
+}
+div#column-left img{
+    border-radius: 0em 3em 3em 3em;
+    
+}
+
+div#column-rigth{
+    display: flex;
+    padding: 0em 4em 0em 4em;
+    vertical-align: top;
+}
+
+div#column-right span img{
+    width: 13em;
+    height: 3em;    
+}
+
+div#black-container{
+    background-color: #201b24;
+    color: white;
+    display: flex;
+    padding: 8rem 8rem;
+} h2{
+    margin: 0;
+    padding: 2rem 0;
+    font-size: 30px;
+}
+
+div#container_impacto{
+        width: 50%;
+    }
+    div#container_impacto:first-of-type{
+        padding-right: 50px;
+        
+    }
+    div#container_impacto:first-of-type p{
+        width: 90%;
+    }
+    div#container_impacto:last-of-type{
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    div#container_impacto:last-of-type div span{
+        font-size: 50px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+    }
+    div#container_impacto:last-of-type div p{
+        font-size: 14px;
+        color: #8c939c;
+}
+div#text-container p{
+    color: white;
+    
+}
+div#text-container h2{
+    color: white;
+    
+}
+
+div#contacto-divisor{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+} span img{
+    border-radius: 15px 15px 0 0;
+}
+
+div#container-equipo{
+    width: 14rem;
+    text-align: center;
+        
+    } & img{
+    border-radius: 25px 25px 0 0;
+}
+
+div#literal-content{
+    padding: 1rem;
+    
+ }
+ div#contacto_cargo p{
+    margin: 0;
+    padding: 0.5rem 0
+ }
+
+
+div#literal-content h5 {
+margin: 0;
+font-size: 1em;
+line-height: 1.2;
+}
+
+div#contacto_cargo p {
+    text-align: center;
+    margin-bottom: 0.8em;
+    color: var(--awb-color6);
+}
+
+.logo_card{
+    width: 1.5rem
+}
+
+@media (width >= 2500px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media (width >= 3500px) {
+    html {
+        font-size: 32px;
+    }
+}
+
